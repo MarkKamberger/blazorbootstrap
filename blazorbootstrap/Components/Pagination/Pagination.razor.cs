@@ -53,7 +53,7 @@ public partial class Pagination : BlazorBootstrapComponentBase
     /// <summary>
     /// Changes current page number and fires event.
     /// </summary>
-    private async Task SetPageNumberTo(int newPageNumber)
+    public async Task SetPageNumberTo(int newPageNumber)
     {
         if (ActivePageNumber != newPageNumber)
         {
